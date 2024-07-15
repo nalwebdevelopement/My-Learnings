@@ -1,0 +1,25 @@
+.main
+{
+    border: 2px solid green;
+}
+.naliniborder
+{
+    margin-top:1em;
+    border: 2px solid green;
+    width:70%;
+    height:42vh;;
+    padding: 30px;
+}
+.inside
+{
+   
+    border: 2px solid rgb(75, 11, 203);
+     height:270px;
+     padding:5px;
+}
+.c1,.c2,.c3,.c4
+{
+border: 2px solid purple;
+height:18%;
+margin:1em;
+}
