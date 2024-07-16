@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:#E7E9EB;
+}
+#myDIV {
+  height:300px;
+  background-color:#FFFFFF;
+}
+#main {
+  width: 400px;
+  height: 150px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+}
+
+#main div {
+  width: 70px;
+  height: 70px;
+}
+div#myRedDIV   {order: 4;}
+div#myBlueDIV  {order: 2;}
+div#myGreenDIV {order: 1;}
+div#myPinkDIV  {order: 4;}
+</style>
+</head>
+<body>
+
+<h1>The order property</h1>
+
+<div id="myDIV">
+<p>Check the code. The order property specifies in which order the elments are displayed.</p>
+<div id="main">
+  <div style="background-color:coral;" id="myRedDIV"></div>
+  <div style="background-color:lightblue;" id="myBlueDIV"></div>
+  <div style="background-color:lightgreen;" id="myGreenDIV"></div>
+  <div style="background-color:pink;" id="myPinkDIV"></div>
+</div>
+</div>
+
+</body>
+</html>
