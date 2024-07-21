@@ -1,0 +1,35 @@
+@media (max-width: 2280px){
+body
+{
+    background-color:lightgreen;
+
+}}
+
+@media (max-width: 1480px){
+    body
+    {
+        background-color:rgb(221, 127, 194);
+    
+    }}
+    @media (max-width: 980px){
+        body
+        {
+            background-color:chocolate;
+        
+        }
+        .titlecontainer {
+            border: solid peru;
+            height: 40vh;
+            margin: 1em;
+            font-size: 50px;
+            text-align: center;
+          }
+          .piccontainer{
+            border:solid black;
+            height:40vh;
+            background-image: url("/neopolitan/images/chocolate.jpg");
+        }
+    
+    
+    
+    }
