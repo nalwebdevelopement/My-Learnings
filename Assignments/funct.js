@@ -14,6 +14,7 @@ function findLargest(a, b, c) {
 
 console.log(findLargest(5, 10, 3)); // Output: 10
 console.log(findLargest(8, 2, 6)); // Output: 8
+
 console.log("******************Reverse words in a sentence****************************** ");
 
 // Reverse Words in a Sentence
@@ -25,24 +26,8 @@ function reverseWords(sentence) {
 
     const rev = sentence.split(" ");
     return (rev.reverse().join(" "));
-//    let len = sentence.length;
-//    let reverse = "";
-//    for(let i = len-1; i >= 0 ; i--)
-//     {
-//    reverse = reverse + sentence[i];
-//     }
-//     return reverse;
-
-//console.log (rev);
-//for(let i = 0 ;i<rev.length; i++)
-//{
-    
-    //rev
-//}
 
 }
-
-
  console.log(reverseWords("Hello world!")); // Output: "world! Hello"
  console.log(reverseWords("The quick brown fox")); // Output: "fox brown quick The"
  console.log(reverseWords("JavaScript is fun")); // Output: "fun is JavaScript"
@@ -50,16 +35,14 @@ function reverseWords(sentence) {
 // Find the Longest Word in an Array
 // Description: Write a function findLongestWord that takes an array of strings as 
 // an argument and returns the longest word in the array. If there are multiple words with the same length, return the first one.
+
 console.log("*******************Find the Longest Word in an Array***************************** ");
 function findLongestWord(words) {
-    // Your code here
     let len = words.length;
-    //const long = []
     let max = 0;
     let maxword = ""
     for(let i = 0;i<len; i ++)
     {
-        //console.log(words[i].length)
         if(words[i].length > max )
         { 
             max = words[i].length
@@ -88,35 +71,21 @@ function countWords(sentence) {
         // Your code here
  
   const c = sentence.split(" ");
-  console.log(c);
   const result = {};
   let count = 0;
-  for(let i = 0; i <= c.length-1;i++)
+  for(const word of c)
 {
-    count = 1;
-    for(let j = i; j <= c.length-1;j++)
-
+    if(result[word] )
     {
-        console.log("((((((((((((((")
-        console.log(c[i] , c[j]);
-        if(c[i] === c[j])
-        
-        count ++; 
-    console.log(count); break;
+        result[word]++;
     }
-    let text = c[i];
-    console.log(text);
-    result.text = count;
-    console.log(c[i]);
-
+    else
+        result[word] = 1;
 }
-
-console.log(result);
-return c;
+return result;
 }
 
  console.log(countWords("hello world hello")); 
-// // Output: { hello: 2, world: 1 }
-
-// console.log(countWords("this is a test this is only a test")); 
+// Output: { hello: 2, world: 1 }
+ console.log(countWords("this is a test this is only a test")); 
 // // Output: { this: 2, is: 2, a: 2, test: 2, only: 1 }
