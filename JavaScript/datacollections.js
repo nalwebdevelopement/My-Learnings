@@ -72,23 +72,22 @@
 
 //console.log(sum);
 
-const obj =
-{name :"nalini"}
+// const obj =
+// {name :"nalini"}
 
-let data = {
+// let data = {
 
-   a: 10,
+//    a: 10,
 
-   b: 20,
+//    b: 20,
 
-   c: 30
+//    c: 30
 
-};
+// };
 
-console.log(Object.keys(data).length);
-console.log(Object.value(data));
+// console.log(Object.keys(data).length);
+// console.log(Object.value(data));
 
 
-// how to declare an arryan arrary
 
 cd
