@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding:0;
+    
+
+}
+.main-container
+{
+    border: 2px solid red;
+    width:500px;
+    height: 500px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow:1;
+    justify-content: center;
+    margin-left: 200px;
+    
+    
+   
+
+}
+.class-box
+{
+    border: 2px solid greenyellow;
+    width: 250px;
+    height: 250px;
+    padding:5px;
+   
+}
+#box1
+{
+    background-color: grey;
+}
+#box2
+{
+    background-color: grey;
+
+}
+#box3
+{
+    background-color:grey;
+    
+}
+#box4
+{
+    background-color: grey;
+    
+}

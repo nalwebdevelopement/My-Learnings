@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="heading">
+    
+        <h3> Color Match Game </h3>
+        <br>
+        </div>
+        <div class="main-container">
+           
+            <div class="first-row">
+
+                <div class= "class-box "id="box1" onclick = "showcolor1()"> </div>
+                <div class= "class-box "id = "box2" onclick="showcolor2()"> </div>
+
+            </div>
+            <div class="second-row">
+                <div  class= "class-box" id="box3"  onclick = "showcolor3()"> </div>
+                <div  class= "class-box"id = "box4" onclick = "showcolor4()"> </div>
+
+            </div>
+        </div>
+            <button  class="score" onclick="score()"> Score</button>
+            <button class="attempt" onclick="Attempt()">Attempts</button>
+            <p id="attempts"> 0 </p>
+
+
+
+        <script src="app.js" async defer></script>
+    </body>
+</html>
